@@ -21,7 +21,7 @@ Now the plots are in ./outputs folder (default) and the model in  ./saved_model/
 
 
 - Restore saved model and keep training on group 5 for 500 episodes
-`sudo python3 main.py -e 200 -g 1 -tg 5 -se 100 -r ./saved_model/group4-200/ -s ./saved_model/group5-500/`
+`sudo python3 main.py -e 500 -g 1 -tg 5 -se 100 -r ./saved_model/group4-200/ -s ./saved_model/group5-500/`
 
 - Execute a single query `python main.py --query 3a --episodes 150`
 
